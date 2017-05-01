@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7338FD4D1DA133BC0063E581 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FD4C1DA133BC0063E581 /* main.m */; };
+		7338FD501DA133BC0063E581 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FD4F1DA133BC0063E581 /* AppDelegate.m */; };
+		7338FD531DA133BC0063E581 /* SidePanelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FD521DA133BC0063E581 /* SidePanelTableViewController.m */; };
+		7338FD561DA133BC0063E581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7338FD541DA133BC0063E581 /* Main.storyboard */; };
+		7338FD581DA133BC0063E581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7338FD571DA133BC0063E581 /* Assets.xcassets */; };
+		7338FD5B1DA133BC0063E581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7338FD591DA133BC0063E581 /* LaunchScreen.storyboard */; };
+		7338FD951DA142490063E581 /* NVNewsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FD941DA142490063E581 /* NVNewsListTableViewController.m */; };
+		7338FD981DA67E160063E581 /* NVListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FD971DA67E160063E581 /* NVListTableViewCell.m */; };
+		7338FDA11DAF44210063E581 /* NVNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7338FDA01DAF44210063E581 /* NVNetworkManager.m */; };
+		73C360FB1DB266D300F71B93 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360ED1DB266D300F71B93 /* AFHTTPSessionManager.m */; };
+		73C360FC1DB266D300F71B93 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360F01DB266D300F71B93 /* AFNetworkReachabilityManager.m */; };
+		73C360FD1DB266D300F71B93 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360F21DB266D300F71B93 /* AFSecurityPolicy.m */; };
+		73C360FE1DB266D300F71B93 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360F41DB266D300F71B93 /* AFURLRequestSerialization.m */; };
+		73C360FF1DB266D300F71B93 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360F61DB266D300F71B93 /* AFURLResponseSerialization.m */; };
+		73C361001DB266D300F71B93 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360F81DB266D300F71B93 /* AFURLSessionManager.m */; };
+		73C361011DB266D300F71B93 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C360FA1DB266D300F71B93 /* UIWebView+AFNetworking.m */; };
+		73C361071DB2CC8800F71B93 /* NVArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C361061DB2CC8800F71B93 /* NVArticle.m */; };
+		73C3610A1DB4E35F00F71B93 /* NVFullArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C361091DB4E35F00F71B93 /* NVFullArticleViewController.m */; };
+		73C3610E1DB64FCD00F71B93 /* MSSlidingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C3610D1DB64FCD00F71B93 /* MSSlidingPanelController.m */; };
+		73C361111DB656F400F71B93 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C361101DB656F400F71B93 /* EmptySegue.m */; };
+		73C361141DB7A37200F71B93 /* NVArticleSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C361131DB7A37200F71B93 /* NVArticleSection.m */; };
+		73D3D3621EB1E440000EBB49 /* NVDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D3611EB1E440000EBB49 /* NVDefines.m */; };
+		73D3D3651EB4DD26000EBB49 /* NVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D3D3641EB4DD26000EBB49 /* NVUtilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7338FD481DA133BC0063E581 /* NewsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7338FD4C1DA133BC0063E581 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7338FD4E1DA133BC0063E581 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7338FD4F1DA133BC0063E581 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7338FD511DA133BC0063E581 /* SidePanelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidePanelTableViewController.h; sourceTree = "<group>"; };
+		7338FD521DA133BC0063E581 /* SidePanelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidePanelTableViewController.m; sourceTree = "<group>"; };
+		7338FD551DA133BC0063E581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7338FD571DA133BC0063E581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7338FD5A1DA133BC0063E581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7338FD5C1DA133BC0063E581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7338FD931DA142490063E581 /* NVNewsListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNewsListTableViewController.h; sourceTree = "<group>"; };
+		7338FD941DA142490063E581 /* NVNewsListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNewsListTableViewController.m; sourceTree = "<group>"; };
+		7338FD961DA67E160063E581 /* NVListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVListTableViewCell.h; sourceTree = "<group>"; };
+		7338FD971DA67E160063E581 /* NVListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVListTableViewCell.m; sourceTree = "<group>"; };
+		7338FD9F1DAF44210063E581 /* NVNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVNetworkManager.h; sourceTree = "<group>"; };
+		7338FDA01DAF44210063E581 /* NVNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVNetworkManager.m; sourceTree = "<group>"; };
+		73C360EC1DB266D300F71B93 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		73C360ED1DB266D300F71B93 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		73C360EE1DB266D300F71B93 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		73C360EF1DB266D300F71B93 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		73C360F01DB266D300F71B93 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		73C360F11DB266D300F71B93 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		73C360F21DB266D300F71B93 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		73C360F31DB266D300F71B93 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		73C360F41DB266D300F71B93 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		73C360F51DB266D300F71B93 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		73C360F61DB266D300F71B93 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		73C360F71DB266D300F71B93 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		73C360F81DB266D300F71B93 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		73C360F91DB266D300F71B93 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		73C360FA1DB266D300F71B93 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		73C361051DB2CC8800F71B93 /* NVArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVArticle.h; sourceTree = "<group>"; };
+		73C361061DB2CC8800F71B93 /* NVArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVArticle.m; sourceTree = "<group>"; };
+		73C361081DB4E35F00F71B93 /* NVFullArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVFullArticleViewController.h; sourceTree = "<group>"; };
+		73C361091DB4E35F00F71B93 /* NVFullArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVFullArticleViewController.m; sourceTree = "<group>"; };
+		73C3610C1DB64FCD00F71B93 /* MSSlidingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSlidingPanelController.h; sourceTree = "<group>"; };
+		73C3610D1DB64FCD00F71B93 /* MSSlidingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSlidingPanelController.m; sourceTree = "<group>"; };
+		73C3610F1DB656F400F71B93 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmptySegue.h; path = ../../EmptySegue.h; sourceTree = "<group>"; };
+		73C361101DB656F400F71B93 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmptySegue.m; path = ../../EmptySegue.m; sourceTree = "<group>"; };
+		73C361121DB7A37200F71B93 /* NVArticleSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVArticleSection.h; sourceTree = "<group>"; };
+		73C361131DB7A37200F71B93 /* NVArticleSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVArticleSection.m; sourceTree = "<group>"; };
+		73D3D3601EB1E440000EBB49 /* NVDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDefines.h; sourceTree = "<group>"; };
+		73D3D3611EB1E440000EBB49 /* NVDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVDefines.m; sourceTree = "<group>"; };
+		73D3D3631EB4DD26000EBB49 /* NVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVUtilities.h; sourceTree = "<group>"; };
+		73D3D3641EB4DD26000EBB49 /* NVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7338FD451DA133BC0063E581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7338FD3F1DA133BC0063E581 = {
+			isa = PBXGroup;
+			children = (
+				7338FD4A1DA133BC0063E581 /* NewsViewer */,
+				7338FD491DA133BC0063E581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7338FD491DA133BC0063E581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7338FD481DA133BC0063E581 /* NewsViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7338FD4A1DA133BC0063E581 /* NewsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7338FD4E1DA133BC0063E581 /* AppDelegate.h */,
+				7338FD4F1DA133BC0063E581 /* AppDelegate.m */,
+				7338FD511DA133BC0063E581 /* SidePanelTableViewController.h */,
+				7338FD521DA133BC0063E581 /* SidePanelTableViewController.m */,
+				7338FD541DA133BC0063E581 /* Main.storyboard */,
+				7338FD931DA142490063E581 /* NVNewsListTableViewController.h */,
+				7338FD941DA142490063E581 /* NVNewsListTableViewController.m */,
+				73C361081DB4E35F00F71B93 /* NVFullArticleViewController.h */,
+				73C361091DB4E35F00F71B93 /* NVFullArticleViewController.m */,
+				7338FD961DA67E160063E581 /* NVListTableViewCell.h */,
+				7338FD971DA67E160063E581 /* NVListTableViewCell.m */,
+				7338FD9F1DAF44210063E581 /* NVNetworkManager.h */,
+				7338FDA01DAF44210063E581 /* NVNetworkManager.m */,
+				73C361051DB2CC8800F71B93 /* NVArticle.h */,
+				73C361061DB2CC8800F71B93 /* NVArticle.m */,
+				73C361121DB7A37200F71B93 /* NVArticleSection.h */,
+				73C361131DB7A37200F71B93 /* NVArticleSection.m */,
+				73D3D3601EB1E440000EBB49 /* NVDefines.h */,
+				73D3D3611EB1E440000EBB49 /* NVDefines.m */,
+				73D3D3631EB4DD26000EBB49 /* NVUtilities.h */,
+				73D3D3641EB4DD26000EBB49 /* NVUtilities.m */,
+				7338FD571DA133BC0063E581 /* Assets.xcassets */,
+				7338FD591DA133BC0063E581 /* LaunchScreen.storyboard */,
+				7338FD5C1DA133BC0063E581 /* Info.plist */,
+				7338FD621DA13D730063E581 /* Frameworks */,
+				7338FD4B1DA133BC0063E581 /* Supporting Files */,
+			);
+			path = NewsViewer;
+			sourceTree = "<group>";
+		};
+		7338FD4B1DA133BC0063E581 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7338FD4C1DA133BC0063E581 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7338FD621DA13D730063E581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73C3610B1DB64FCD00F71B93 /* MSSlidingPanelController */,
+				73C360EB1DB266D300F71B93 /* AFNetworking */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		73C360EB1DB266D300F71B93 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				73C360EC1DB266D300F71B93 /* AFHTTPSessionManager.h */,
+				73C360ED1DB266D300F71B93 /* AFHTTPSessionManager.m */,
+				73C360EE1DB266D300F71B93 /* AFNetworking.h */,
+				73C360EF1DB266D300F71B93 /* AFNetworkReachabilityManager.h */,
+				73C360F01DB266D300F71B93 /* AFNetworkReachabilityManager.m */,
+				73C360F11DB266D300F71B93 /* AFSecurityPolicy.h */,
+				73C360F21DB266D300F71B93 /* AFSecurityPolicy.m */,
+				73C360F31DB266D300F71B93 /* AFURLRequestSerialization.h */,
+				73C360F41DB266D300F71B93 /* AFURLRequestSerialization.m */,
+				73C360F51DB266D300F71B93 /* AFURLResponseSerialization.h */,
+				73C360F61DB266D300F71B93 /* AFURLResponseSerialization.m */,
+				73C360F71DB266D300F71B93 /* AFURLSessionManager.h */,
+				73C360F81DB266D300F71B93 /* AFURLSessionManager.m */,
+				73C360F91DB266D300F71B93 /* UIWebView+AFNetworking.h */,
+				73C360FA1DB266D300F71B93 /* UIWebView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		73C3610B1DB64FCD00F71B93 /* MSSlidingPanelController */ = {
+			isa = PBXGroup;
+			children = (
+				73C3610C1DB64FCD00F71B93 /* MSSlidingPanelController.h */,
+				73C3610D1DB64FCD00F71B93 /* MSSlidingPanelController.m */,
+				73C3610F1DB656F400F71B93 /* EmptySegue.h */,
+				73C361101DB656F400F71B93 /* EmptySegue.m */,
+			);
+			path = MSSlidingPanelController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7338FD471DA133BC0063E581 /* NewsViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7338FD5F1DA133BC0063E581 /* Build configuration list for PBXNativeTarget "NewsViewer" */;
+			buildPhases = (
+				7338FD441DA133BC0063E581 /* Sources */,
+				7338FD451DA133BC0063E581 /* Frameworks */,
+				7338FD461DA133BC0063E581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsViewer;
+			productName = NewsViewer;
+			productReference = 7338FD481DA133BC0063E581 /* NewsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7338FD401DA133BC0063E581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = moon;
+				TargetAttributes = {
+					7338FD471DA133BC0063E581 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7338FD431DA133BC0063E581 /* Build configuration list for PBXProject "NewsViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7338FD3F1DA133BC0063E581;
+			productRefGroup = 7338FD491DA133BC0063E581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7338FD471DA133BC0063E581 /* NewsViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7338FD461DA133BC0063E581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7338FD5B1DA133BC0063E581 /* LaunchScreen.storyboard in Resources */,
+				7338FD581DA133BC0063E581 /* Assets.xcassets in Resources */,
+				7338FD561DA133BC0063E581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7338FD441DA133BC0063E581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73D3D3651EB4DD26000EBB49 /* NVUtilities.m in Sources */,
+				7338FD981DA67E160063E581 /* NVListTableViewCell.m in Sources */,
+				73C360FD1DB266D300F71B93 /* AFSecurityPolicy.m in Sources */,
+				73C3610A1DB4E35F00F71B93 /* NVFullArticleViewController.m in Sources */,
+				73C3610E1DB64FCD00F71B93 /* MSSlidingPanelController.m in Sources */,
+				7338FD531DA133BC0063E581 /* SidePanelTableViewController.m in Sources */,
+				7338FD951DA142490063E581 /* NVNewsListTableViewController.m in Sources */,
+				73C360FF1DB266D300F71B93 /* AFURLResponseSerialization.m in Sources */,
+				73D3D3621EB1E440000EBB49 /* NVDefines.m in Sources */,
+				7338FD501DA133BC0063E581 /* AppDelegate.m in Sources */,
+				73C361071DB2CC8800F71B93 /* NVArticle.m in Sources */,
+				7338FDA11DAF44210063E581 /* NVNetworkManager.m in Sources */,
+				73C360FB1DB266D300F71B93 /* AFHTTPSessionManager.m in Sources */,
+				73C361011DB266D300F71B93 /* UIWebView+AFNetworking.m in Sources */,
+				73C361141DB7A37200F71B93 /* NVArticleSection.m in Sources */,
+				73C360FE1DB266D300F71B93 /* AFURLRequestSerialization.m in Sources */,
+				73C361001DB266D300F71B93 /* AFURLSessionManager.m in Sources */,
+				73C360FC1DB266D300F71B93 /* AFNetworkReachabilityManager.m in Sources */,
+				73C361111DB656F400F71B93 /* EmptySegue.m in Sources */,
+				7338FD4D1DA133BC0063E581 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7338FD541DA133BC0063E581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7338FD551DA133BC0063E581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7338FD591DA133BC0063E581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7338FD5A1DA133BC0063E581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7338FD5D1DA133BC0063E581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7338FD5E1DA133BC0063E581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7338FD601DA133BC0063E581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.NewsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7338FD611DA133BC0063E581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NewsViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.NewsViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7338FD431DA133BC0063E581 /* Build configuration list for PBXProject "NewsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7338FD5D1DA133BC0063E581 /* Debug */,
+				7338FD5E1DA133BC0063E581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7338FD5F1DA133BC0063E581 /* Build configuration list for PBXNativeTarget "NewsViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7338FD601DA133BC0063E581 /* Debug */,
+				7338FD611DA133BC0063E581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7338FD401DA133BC0063E581 /* Project object */;
+}
